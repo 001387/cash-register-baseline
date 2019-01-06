@@ -19,4 +19,9 @@ public class CashRegisterTest {
         //verify that printer was called
         mockPrinter.verifyThatPrintWasCalled();
     }
+    
+    @Test 
+    public void should_print_the_stub_purchase() {
+    	
+    }
 }
